@@ -12,6 +12,9 @@ h1{
 img{
   width: 200px;
 }
+i {
+  font-size: 40px;
+}
 .box1 {
   float: left;
 }
