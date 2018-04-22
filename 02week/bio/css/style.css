@@ -12,3 +12,15 @@ h1{
 img{
   width: 200px;
 }
+.box1 {
+  float: left;
+}
+.box2{
+  float: left;
+  padding-left: 20px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
