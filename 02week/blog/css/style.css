@@ -4,9 +4,9 @@ body{
   padding-right: 600px;
 }
 p{
-  font-family: 'PT Serif', serif;
+font-family: 'PT Serif', serif;
 }
-h1{
+h1, h2{
   font-family: 'Merriweather', serif;
 }
 img{
@@ -14,6 +14,13 @@ img{
 }
 i {
   font-size: 40px;
+}
+article time {
+  font-style: italic;
+}
+p::first-letter {
+  font-size: 200%;
+
 }
 .box1 {
   float: left;
