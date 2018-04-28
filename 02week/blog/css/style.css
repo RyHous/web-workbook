@@ -1,4 +1,36 @@
-h2 {
-color: yellow;
-  font-size: xx-small;
+body{
+  color: #404040;
+  background-color: #f2f2f2;
+  padding-right: 600px;
+}
+p{
+font-family: 'PT Serif', serif;
+}
+h1, h2{
+  font-family: 'Merriweather', serif;
+}
+img{
+  width: 200px;
+}
+i {
+  font-size: 40px;
+}
+article time {
+  font-style: italic;
+}
+p::first-letter {
+  font-size: 200%;
+
+}
+.box1 {
+  float: left;
+}
+.box2{
+  float: left;
+  padding-left: 20px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
